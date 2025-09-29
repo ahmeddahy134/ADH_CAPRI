@@ -1,0 +1,4 @@
+scapy==2.5.0
+IPy==1.1
+colorama==0.4.6
+pyfiglet==0.8.post1

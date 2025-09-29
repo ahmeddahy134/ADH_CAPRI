@@ -1,0 +1,327 @@
+2025-09-29 07:01:02,205 - INFO - Displayed ADH_CAPRI title
+2025-09-29 07:01:02,207 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:01:06,930 - INFO - User selected choice: 1
+2025-09-29 07:01:12,103 - INFO - User entered interface: eth0
+2025-09-29 07:01:21,128 - INFO - User entered MAC: 00:11:22:33:44:5a
+2025-09-29 07:01:21,128 - INFO - Selected tool: 1, Inputs: interface=eth0, target=None, spoof=None, mac=00:11:22:33:44:5a, ports=1-500, duration=60, http_only=True
+2025-09-29 07:01:21,129 - INFO - Starting MAC Changer
+2025-09-29 07:01:21,224 - INFO - Current MAC: 00:0c:29:f3:6a:31
+2025-09-29 07:01:21,224 - INFO - Changing MAC address for eth0 to 00:11:22:33:44:5a
+2025-09-29 07:01:22,219 - INFO - MAC successfully changed to 00:11:22:33:44:5a
+2025-09-29 07:01:22,221 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:01:25,265 - INFO - User selected choice: 2
+2025-09-29 07:01:38,449 - INFO - User entered target: 10.196.103.98/24
+2025-09-29 07:01:38,449 - INFO - Selected tool: 2, Inputs: interface=None, target=10.196.103.98/24, spoof=None, mac=None, ports=1-500, duration=60, http_only=True
+2025-09-29 07:01:38,449 - INFO - Starting Network Scanner
+2025-09-29 07:01:38,449 - INFO - Starting network scan on 10.196.103.98/24
+2025-09-29 07:01:40,856 - INFO - Network scan results: IP Address			MAC Address
+2025-09-29 07:01:40,856 - INFO - --------------------------------------
+2025-09-29 07:01:40,857 - INFO - 10.196.103.98			1e:79:65:8f:95:88
+2025-09-29 07:01:40,857 - INFO - 10.196.103.109			60:a5:e2:ee:8d:0b
+2025-09-29 07:01:40,859 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:01:44,395 - INFO - User selected choice: 3
+2025-09-29 07:01:47,343 - INFO - User entered interface: eth0
+2025-09-29 07:01:54,484 - INFO - User entered target: 10.196.103.98/24
+2025-09-29 07:02:02,329 - INFO - User entered spoof IP: 10.196.103.109
+2025-09-29 07:02:05,214 - INFO - User selected HTTP only: True
+2025-09-29 07:02:06,781 - INFO - User entered sniff duration: 60
+2025-09-29 07:02:06,781 - INFO - Selected tool: 3, Inputs: interface=eth0, target=10.196.103.98/24, spoof=10.196.103.109, mac=None, ports=1-500, duration=60, http_only=True
+2025-09-29 07:02:06,782 - INFO - Starting ARP Spoofer + HTTP Sniffer
+2025-09-29 07:02:06,784 - INFO - IP forwarding enabled
+2025-09-29 07:02:06,787 - INFO - Starting HTTP sniff on eth0 (duration: 60s)
+2025-09-29 07:02:06,788 - INFO - Capturing HTTP requests, URLs, and credentials
+2025-09-29 07:02:06,977 - INFO - Sniffing stopped after 60s
+2025-09-29 07:02:09,521 - INFO - Spoofed 10.196.103.98/24 as 10.196.103.109
+2025-09-29 07:02:09,857 - INFO - Spoofed 10.196.103.109 as 10.196.103.98/24
+2025-09-29 07:02:11,859 - INFO - IP forwarding disabled
+2025-09-29 07:02:11,861 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:04:13,830 - INFO - User exited with Ctrl+C
+2025-09-29 07:05:53,918 - INFO - Displayed ADH_CAPRI title
+2025-09-29 07:05:53,927 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:05:59,019 - INFO - User selected choice: 3
+2025-09-29 07:06:03,230 - INFO - User entered interface: eth0
+2025-09-29 07:06:09,815 - INFO - User entered target: 10.196.103.109
+2025-09-29 07:06:15,682 - INFO - User entered spoof IP: 10.196.103.98
+2025-09-29 07:06:18,454 - INFO - User selected HTTP only: True
+2025-09-29 07:06:19,842 - INFO - User entered sniff duration: 60
+2025-09-29 07:06:19,843 - INFO - Selected tool: 3, Inputs: interface=eth0, target=10.196.103.109, spoof=10.196.103.98, mac=None, ports=1-500, duration=60, http_only=True
+2025-09-29 07:06:19,843 - INFO - Starting ARP Spoofer + HTTP Sniffer
+2025-09-29 07:06:19,847 - INFO - IP forwarding enabled
+2025-09-29 07:06:19,852 - INFO - Starting HTTP sniff on eth0 (duration: 60s)
+2025-09-29 07:06:19,859 - INFO - Capturing HTTP requests, URLs, and credentials
+2025-09-29 07:06:20,380 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:20,704 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:22,904 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:23,132 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:25,256 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:25,584 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:27,689 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:27,888 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:29,985 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:30,320 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:32,404 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:32,676 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:34,804 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:35,116 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:37,216 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:37,508 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:39,604 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:39,820 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:41,929 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:42,200 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:44,300 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:44,604 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:46,692 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:46,913 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:49,012 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:49,320 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:51,416 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:51,668 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:53,780 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:54,016 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:56,132 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:56,360 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:06:58,448 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:06:58,760 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:07:00,848 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:07:01,160 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:07:03,272 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:07:03,488 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:07:05,604 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:07:05,737 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:07:07,832 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:07:08,032 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:07:10,144 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:07:10,448 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:07:12,548 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:07:12,856 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:07:14,952 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:07:15,256 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:07:17,274 - INFO - Detected CTRL+C. Stopping ARP spoofing and sniffing
+2025-09-29 07:07:17,392 - INFO - Spoofed 10.196.103.109 as 10.196.103.98
+2025-09-29 07:07:17,593 - INFO - Spoofed 10.196.103.98 as 10.196.103.109
+2025-09-29 07:07:19,415 - INFO - IP forwarding disabled
+2025-09-29 07:07:20,049 - INFO - Sniffing stopped after 60s
+2025-09-29 07:17:42,317 - INFO - Displayed ADH_CAPRI title
+2025-09-29 07:17:42,318 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:17:46,307 - INFO - User selected choice: 3
+2025-09-29 07:17:50,049 - INFO - User entered interface: eth0
+2025-09-29 07:17:59,479 - INFO - User entered target: 10.196.103.98
+2025-09-29 07:18:10,148 - INFO - User entered spoof IP: 10.196.103.109
+2025-09-29 07:18:12,478 - INFO - User selected HTTP only: True
+2025-09-29 07:18:13,871 - INFO - User entered sniff duration: 60
+2025-09-29 07:18:13,871 - INFO - Selected tool: 3, Inputs: interface=eth0, target=10.196.103.98, spoof=10.196.103.109, mac=None, ports=1-500, duration=60, http_only=True
+2025-09-29 07:18:13,871 - INFO - Starting ARP Spoofer + HTTP Sniffer
+2025-09-29 07:18:13,874 - INFO - IP forwarding enabled
+2025-09-29 07:18:13,874 - INFO - Starting ARP spoofing: target=10.196.103.98, spoof=10.196.103.109, interface=eth0
+2025-09-29 07:18:13,875 - INFO - Starting packet sniffing on eth0 for target 10.196.103.98, duration 60s, HTTP only: True
+2025-09-29 07:18:14,272 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:16,384 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:18,548 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:20,652 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:22,756 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:24,864 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:27,052 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:29,172 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:31,288 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:33,396 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:35,644 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:37,852 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:39,960 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:42,088 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:44,200 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:46,404 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:48,576 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:50,688 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:52,800 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:54,912 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:57,132 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:18:59,344 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:19:01,460 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:19:03,696 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:19:05,840 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:19:07,948 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:19:10,088 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:19:12,196 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:19:14,216 - INFO - Packet sniffing completed
+2025-09-29 07:19:14,356 - INFO - Sent ARP spoof packet to 10.196.103.98
+2025-09-29 07:19:16,358 - INFO - Stopping ARP spoofing
+2025-09-29 07:19:16,572 - INFO - Restored ARP table for 10.196.103.98
+2025-09-29 07:19:16,574 - INFO - IP forwarding disabled
+2025-09-29 07:19:16,575 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:21:40,177 - INFO - User exited with Ctrl+C
+2025-09-29 07:24:46,253 - INFO - Displayed ADH_CAPRI title
+2025-09-29 07:24:46,253 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:24:51,394 - INFO - User selected choice: 3
+2025-09-29 07:24:55,951 - INFO - User entered interface: eth0
+2025-09-29 07:25:19,069 - INFO - User entered target: 10.196.103.109
+2025-09-29 07:25:33,499 - INFO - User entered spoof IP: 10.196.103.98
+2025-09-29 07:25:35,343 - INFO - User selected HTTP only: True
+2025-09-29 07:25:36,424 - INFO - User entered sniff duration: 60
+2025-09-29 07:25:36,424 - INFO - Selected tool: 3, Inputs: interface=eth0, target=10.196.103.109, spoof=10.196.103.98, mac=None, ports=1-500, duration=60, http_only=True
+2025-09-29 07:25:36,424 - INFO - Starting ARP Spoofer + HTTP Sniffer
+2025-09-29 07:25:36,453 - INFO - IP forwarding enabled
+2025-09-29 07:25:36,453 - INFO - Starting ARP spoofing: target=10.196.103.109, spoof=10.196.103.98, interface=eth0
+2025-09-29 07:25:36,454 - INFO - Starting packet sniffing on eth0 for target 10.196.103.109, duration 60s, HTTP only: True
+2025-09-29 07:25:38,188 - INFO - Packet sniffing completed
+2025-09-29 07:25:38,579 - INFO - Set interface eth0 MAC address to 1e:79:65:8f:95:88
+2025-09-29 07:25:38,579 - INFO - Stopping ARP spoofing
+2025-09-29 07:25:39,840 - INFO - Restored ARP table for 10.196.103.109
+2025-09-29 07:25:41,444 - INFO - Restored ARP table for 10.196.103.98
+2025-09-29 07:25:41,449 - INFO - IP forwarding disabled
+2025-09-29 07:25:41,449 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:26:04,066 - INFO - User exited with Ctrl+C
+2025-09-29 07:32:31,872 - INFO - Displayed ADH_CAPRI title
+2025-09-29 07:32:31,873 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:32:34,457 - INFO - User selected choice: 3
+2025-09-29 07:32:39,533 - INFO - User entered interface: eth0
+2025-09-29 07:32:50,334 - INFO - User entered target: 10.196.103.109
+2025-09-29 07:32:56,725 - INFO - User entered spoof IP: 10.196.103.98
+2025-09-29 07:32:58,827 - INFO - User selected HTTP only: True
+2025-09-29 07:33:00,057 - INFO - User entered sniff duration: 60
+2025-09-29 07:33:00,057 - INFO - Selected tool: 3, Inputs: interface=eth0, target=10.196.103.109, spoof=10.196.103.98, mac=None, ports=1-500, duration=60, http_only=True
+2025-09-29 07:33:00,057 - INFO - Starting ARP Spoofer + HTTP Sniffer
+2025-09-29 07:33:00,060 - INFO - IP forwarding enabled
+2025-09-29 07:34:00,899 - INFO - IP forwarding disabled
+2025-09-29 07:34:00,902 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:36:07,152 - INFO - User exited with Ctrl+C
+2025-09-29 07:36:26,465 - INFO - Displayed ADH_CAPRI title
+2025-09-29 07:36:26,467 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:36:28,945 - INFO - User selected choice: 3
+2025-09-29 07:36:33,777 - INFO - User entered interface: eth0
+2025-09-29 07:38:12,772 - INFO - User entered target: 10.196.103.109
+2025-09-29 07:38:17,426 - INFO - User entered spoof IP: 10.196.103.98
+2025-09-29 07:38:20,931 - INFO - User selected HTTP only: True
+2025-09-29 07:38:21,537 - INFO - User entered sniff duration: 60
+2025-09-29 07:38:21,537 - INFO - Selected tool: 3, Inputs: interface=eth0, target=10.196.103.109, spoof=10.196.103.98, mac=None, ports=1-500, duration=60, http_only=True
+2025-09-29 07:38:21,538 - INFO - Starting ARP Spoofer + HTTP Sniffer
+2025-09-29 07:38:21,541 - INFO - IP forwarding enabled
+2025-09-29 07:39:22,753 - INFO - IP forwarding disabled
+2025-09-29 07:39:22,756 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:42:59,244 - INFO - Displayed ADH_CAPRI title
+2025-09-29 07:42:59,246 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:43:01,586 - INFO - User selected choice: 1
+2025-09-29 07:43:06,938 - INFO - User entered interface: eth0
+2025-09-29 07:43:18,635 - INFO - User entered MAC: 00:11:22:33:44:5b
+2025-09-29 07:43:18,635 - INFO - Selected tool: 1, Inputs: interface=eth0, target=None, spoof=None, mac=00:11:22:33:44:5b, ports=1-500, duration=60, http_only=True
+2025-09-29 07:43:18,635 - INFO - Starting MAC Changer
+2025-09-29 07:43:18,751 - INFO - Current MAC: 1e:79:65:8f:95:88
+2025-09-29 07:43:18,752 - INFO - Changing MAC address for eth0 to 00:11:22:33:44:5b
+2025-09-29 07:43:19,143 - INFO - MAC successfully changed to 00:11:22:33:44:5b
+2025-09-29 07:43:19,146 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:43:24,009 - INFO - User selected choice: 2
+2025-09-29 07:43:37,712 - INFO - User entered target: 10.196.103.98
+2025-09-29 07:43:37,712 - INFO - Selected tool: 2, Inputs: interface=None, target=10.196.103.98, spoof=None, mac=None, ports=1-500, duration=60, http_only=True
+2025-09-29 07:43:37,712 - INFO - Starting Network Scanner
+2025-09-29 07:43:37,712 - INFO - Starting network scan on 10.196.103.98
+2025-09-29 07:43:37,780 - INFO - Network scan results: IP Address			MAC Address
+2025-09-29 07:43:37,781 - INFO - --------------------------------------
+2025-09-29 07:43:37,781 - INFO - 10.196.103.98			1e:79:65:8f:95:88
+2025-09-29 07:43:37,782 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:43:43,916 - INFO - User selected choice: 3
+2025-09-29 07:44:42,152 - INFO - Displayed ADH_CAPRI title
+2025-09-29 07:44:42,153 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:44:45,050 - INFO - User selected choice: 1
+2025-09-29 07:44:48,793 - INFO - User entered interface: eth0
+2025-09-29 07:44:58,301 - INFO - User entered MAC: 00:11:22:33:44:aa
+2025-09-29 07:44:58,302 - INFO - Selected tool: 1, Inputs: interface=eth0, target=None, spoof=None, mac=00:11:22:33:44:aa, ports=1-500, duration=60, http_only=True
+2025-09-29 07:44:58,303 - INFO - Starting MAC Changer
+2025-09-29 07:44:58,361 - INFO - Current MAC: 00:11:22:33:44:5b
+2025-09-29 07:44:58,362 - INFO - Changing MAC address for eth0 to 00:11:22:33:44:aa
+2025-09-29 07:44:58,620 - INFO - MAC successfully changed to 00:11:22:33:44:aa
+2025-09-29 07:44:58,623 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:45:01,412 - INFO - User selected choice: 2
+2025-09-29 07:45:18,058 - INFO - User entered target: 10.196.103.98/24
+2025-09-29 07:45:18,058 - INFO - Selected tool: 2, Inputs: interface=None, target=10.196.103.98/24, spoof=None, mac=None, ports=1-500, duration=60, http_only=True
+2025-09-29 07:45:18,058 - INFO - Starting Network Scanner
+2025-09-29 07:45:18,059 - INFO - Starting network scan on 10.196.103.98/24
+2025-09-29 07:45:20,428 - INFO - Network scan results: IP Address			MAC Address
+2025-09-29 07:45:20,429 - INFO - --------------------------------------
+2025-09-29 07:45:20,429 - INFO - 10.196.103.109			60:a5:e2:ee:8d:0b
+2025-09-29 07:45:20,429 - INFO - 10.196.103.98			1e:79:65:8f:95:88
+2025-09-29 07:45:20,432 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:45:25,103 - INFO - User selected choice: 3
+2025-09-29 07:45:28,218 - INFO - User entered interface: eth0
+2025-09-29 07:45:39,604 - INFO - User entered target: 10.196.103.109
+2025-09-29 07:45:48,898 - INFO - User entered spoof IP: 10.196.103.98
+2025-09-29 07:45:50,687 - INFO - User selected HTTP only: True
+2025-09-29 07:45:56,007 - INFO - User entered sniff duration: 60
+2025-09-29 07:45:56,007 - INFO - Selected tool: 3, Inputs: interface=eth0, target=10.196.103.109, spoof=10.196.103.98, mac=None, ports=1-500, duration=60, http_only=True
+2025-09-29 07:45:56,007 - INFO - Starting ARP Spoofer + HTTP Sniffer
+2025-09-29 07:45:56,011 - INFO - IP forwarding enabled
+2025-09-29 07:46:57,019 - INFO - IP forwarding disabled
+2025-09-29 07:46:57,020 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:47:06,971 - INFO - User selected choice: 4
+2025-09-29 07:47:21,525 - INFO - User entered target: 10.196.103.109
+2025-09-29 07:47:31,052 - INFO - User entered port range: 1-500
+2025-09-29 07:47:31,053 - INFO - Selected tool: 4, Inputs: interface=None, target=10.196.103.109, spoof=None, mac=None, ports=1-500, duration=60, http_only=True
+2025-09-29 07:47:31,053 - INFO - Starting Port Scanner
+2025-09-29 07:47:31,053 - INFO - Starting port scan on 10.196.103.109 from port 1 to 500
+2025-09-29 07:47:32,119 - INFO - Port 135 open - Banner:  
+2025-09-29 07:47:32,740 - INFO - Port 139 open - Banner:  
+2025-09-29 07:47:33,571 - INFO - Port 445 open - Banner:  
+2025-09-29 07:47:33,603 - INFO - Open ports summary: [135, 139, 445]
+2025-09-29 07:47:33,604 - INFO - Banners: [' ', ' ', ' ']
+2025-09-29 07:47:33,605 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:47:41,689 - INFO - User selected choice: 5
+2025-09-29 07:47:45,510 - INFO - User entered interface: eth0
+2025-09-29 07:47:59,710 - INFO - User entered target: 10.196.103.109
+2025-09-29 07:48:06,092 - INFO - User entered spoof IP: 10.196.103.98
+2025-09-29 07:48:15,962 - INFO - User selected HTTP only: True
+2025-09-29 07:48:17,506 - INFO - User entered sniff duration: 60
+2025-09-29 07:48:19,553 - INFO - User entered port range: 1-500
+2025-09-29 07:48:19,554 - INFO - Selected tool: 5, Inputs: interface=eth0, target=10.196.103.109, spoof=10.196.103.98, mac=None, ports=1-500, duration=60, http_only=True
+2025-09-29 07:48:19,554 - INFO - Starting Full Attack Mode
+2025-09-29 07:48:19,554 - INFO - Starting Network Scanner in Full Attack
+2025-09-29 07:48:19,554 - INFO - Starting network scan on 10.196.103.109
+2025-09-29 07:48:19,704 - INFO - Network scan results: IP Address			MAC Address
+2025-09-29 07:48:19,705 - INFO - --------------------------------------
+2025-09-29 07:48:19,705 - INFO - 10.196.103.109			60:a5:e2:ee:8d:0b
+2025-09-29 07:48:19,705 - INFO - Starting ARP Spoofer + HTTP Sniffer in Full Attack
+2025-09-29 07:48:19,706 - INFO - Starting ARP Spoofer + HTTP Sniffer
+2025-09-29 07:48:19,709 - INFO - IP forwarding enabled
+2025-09-29 07:49:01,502 - INFO - Detected CTRL+C. Stopping ARP spoofing and sniffing
+2025-09-29 07:49:07,264 - INFO - IP forwarding disabled
+2025-09-29 07:49:07,264 - INFO - Starting Port Scanner in Full Attack
+2025-09-29 07:49:07,264 - INFO - Starting port scan on 10.196.103.109 from port 1 to 500
+2025-09-29 07:49:07,870 - INFO - Port 135 open - Banner:  
+2025-09-29 07:49:08,374 - INFO - Port 139 open - Banner:  
+2025-09-29 07:49:09,120 - INFO - Port 445 open - Banner:  
+2025-09-29 07:49:09,239 - INFO - Open ports summary: [135, 139, 445, 135, 139, 445]
+2025-09-29 07:49:09,239 - INFO - Banners: [' ', ' ', ' ', ' ', ' ', ' ']
+2025-09-29 07:49:09,241 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:49:09,242 - ERROR - Invalid choice entered
+2025-09-29 07:49:16,743 - INFO - User selected choice: 5
+2025-09-29 07:49:21,965 - INFO - User entered interface: eth0
+2025-09-29 07:49:38,643 - INFO - User entered target: 10.196.103.109/24
+2025-09-29 07:49:46,199 - INFO - User entered spoof IP: 10.196.103.98
+2025-09-29 07:49:59,555 - INFO - User entered MAC: 00:11:22:33:44:88
+2025-09-29 07:50:03,123 - INFO - User selected HTTP only: True
+2025-09-29 07:50:04,605 - INFO - User entered sniff duration: 60
+2025-09-29 07:50:05,978 - INFO - User entered port range: 1-500
+2025-09-29 07:50:05,979 - INFO - Selected tool: 5, Inputs: interface=eth0, target=10.196.103.109/24, spoof=10.196.103.98, mac=00:11:22:33:44:88, ports=1-500, duration=60, http_only=True
+2025-09-29 07:50:05,980 - INFO - Starting Full Attack Mode
+2025-09-29 07:50:05,980 - INFO - Starting MAC Changer in Full Attack
+2025-09-29 07:50:05,983 - INFO - Current MAC: 00:11:22:33:44:aa
+2025-09-29 07:50:05,984 - INFO - Changing MAC address for eth0 to 00:11:22:33:44:88
+2025-09-29 07:50:06,179 - INFO - MAC successfully changed to 00:11:22:33:44:88
+2025-09-29 07:50:06,187 - INFO - Starting Network Scanner in Full Attack
+2025-09-29 07:50:06,187 - INFO - Starting network scan on 10.196.103.109/24
+2025-09-29 07:50:08,412 - INFO - Network scan results: IP Address			MAC Address
+2025-09-29 07:50:08,412 - INFO - --------------------------------------
+2025-09-29 07:50:08,413 - INFO - 10.196.103.109			60:a5:e2:ee:8d:0b
+2025-09-29 07:50:08,413 - INFO - 10.196.103.98			1e:79:65:8f:95:88
+2025-09-29 07:50:08,413 - INFO - Starting ARP Spoofer + HTTP Sniffer in Full Attack
+2025-09-29 07:50:08,413 - INFO - Starting ARP Spoofer + HTTP Sniffer
+2025-09-29 07:50:08,416 - INFO - IP forwarding enabled
+2025-09-29 07:51:11,044 - INFO - IP forwarding disabled
+2025-09-29 07:51:11,045 - INFO - Starting Port Scanner in Full Attack
+2025-09-29 07:51:11,045 - INFO - Starting port scan on 10.196.103.109 from port 1 to 500
+2025-09-29 07:51:11,684 - INFO - Port 135 open - Banner:  
+2025-09-29 07:51:12,188 - INFO - Port 139 open - Banner:  
+2025-09-29 07:51:12,937 - INFO - Port 445 open - Banner:  
+2025-09-29 07:51:12,969 - INFO - Open ports summary: [135, 139, 445, 135, 139, 445, 135, 139, 445]
+2025-09-29 07:51:12,969 - INFO - Banners: [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
+2025-09-29 07:51:12,970 - INFO - Displayed menu: 1. MAC Changer, 2. Network Scanner, 3. ARP Spoofer + HTTP Sniffer, 4. Port Scanner, 5. Full Attack, 0. Exit
+2025-09-29 07:51:21,992 - INFO - User selected choice: 0
+2025-09-29 07:51:21,992 - INFO - Exiting ADH_CAPRI
